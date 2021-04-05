@@ -1,3 +1,5 @@
+#include "main/globalMacros.h"
+#if ANGLE_SENSOR == 1
 /******************************************************************************
 LSM9DS1_Registers.h
 SparkFunLSM9DS1 Particle Library - LSM9DS1 Register Map
@@ -108,4 +110,5 @@ Distributed as-is; no warranty is given.
 #define WHO_AM_I_AG_RSP		0x68
 #define WHO_AM_I_M_RSP		0x3D
 
+#endif
 #endif

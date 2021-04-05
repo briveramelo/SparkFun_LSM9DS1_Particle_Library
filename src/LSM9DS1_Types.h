@@ -1,3 +1,5 @@
+#include "main/globalMacros.h"
+#if ANGLE_SENSOR == 1
 /******************************************************************************
 LSM9DS1_Types.h
 SparkFunLSM9DS1 Particle Library - LSM9DS1 Types and Enumerations
@@ -245,4 +247,5 @@ struct IMUSettings
 	temperatureSettings temp;
 };
 
+#endif
 #endif

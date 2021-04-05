@@ -1,3 +1,5 @@
+#include "main/globalMacros.h"
+#if ANGLE_SENSOR == 1
 /******************************************************************************
 SFE_LSM9DS1.h
 SFE_LSM9DS1 Library Header File
@@ -427,3 +429,4 @@ protected:
 };
 
 #endif // SFE_LSM9DS1_H //
+#endif

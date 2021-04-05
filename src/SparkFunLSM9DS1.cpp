@@ -1,3 +1,5 @@
+#include "main/globalMacros.h"
+#if ANGLE_SENSOR == 1
 /******************************************************************************
 SFE_LSM9DS1.cpp
 SFE_LSM9DS1 Library Source File
@@ -1144,3 +1146,4 @@ uint8_t LSM9DS1::I2CreadBytes(uint8_t address, uint8_t subAddress, uint8_t * des
 	}
 	return 1;
 }
+#endif
